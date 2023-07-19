@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eee;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+  margin: 0 1rem;
+}
+
+nav #home {
+  font-weight: 600;
+  color: #444;
+}
+
+body {
+  padding: 5px;
+}
+
+/* <div id="accessibility">
+<label for="accessibility-slider">Accessibility</label>
+<input type="range" min="0" max="1" step="0.1" value="0.2" id="accessibility-slider">
+</div> */
+
+#accessibility {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+#accessibility label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  opacity: 0.9;
+  color: #999;
+  margin-bottom: 0.5rem;
+}
+
+#accessibility-slider {
+  width: 100%;
+  margin: 0 1rem;
+}
+
+#activity {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+#activity-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+#activity-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+#activity-type {
+  font-size: 1.2rem;
+  font-weight: 600;
+  opacity: 0.7;
+  color: #aaa;
+}
+
+#participants {
+  font-size: 1.2rem;
+  font-weight: 600;
+  opacity: 0.7;
+  color: #999;
+  margin-top: 0.5rem;
+}
+
+#activity-link {
+  font-size: 0.8rem;
+  font-weight: 600;
+  opacity: 0.7;
+  color: #999;
+  margin-top: 0.5rem;
+}
+
+#activity-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+#save-button,
+#new-button,
+#remove-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 10rem;
+  font-weight: 600;
+  margin: 0 0.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+
+#remove-button {
+  background-color: #f44336;
+  width: 90%;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
+#helper {
+  color: #999;
+  font-size: 0.8rem;
+  margin: 3rem 0.1rem;
+  margin-bottom: 1rem;
+  opacity: 0.8;
+}
+
+#contributing a {
+  color: #999;
+
+  font-weight: 600;
+}
+
+footer a {
+  color: #999;
+  font-weight: 600;
+  text-decoration: none;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="/styles/settings.css">
+        <title>Getting Bored?</title>
+    </head>
+
+    <body>
+        <nav>
+            <a href="/" id="home">Getting Bored?</a>
+            <div>
+
+                <a href="/settings" id="settings">
+                    <i class="material-icons">settings</i>
+                </a>
+                <a href="/saved" id="saved">
+                    <i class="material-icons">bookmark</i>
+                </a>
+            </div>
+        </nav>
+
+
+
+        <h4>Accessibility <span id="accessibility-value">0.2</span> <button id="reset-accessibility"
+                style="margin-left: 10px; ">Reset</button>
+        </h4>
+        <div id="accessibility">
+            <input type="range" min="0" max="1" step="0.1" value="0" id="accessibility-slider">
+        </div>
+
+        <h4>Type of Activity</h4>
+        <div id="type">
+            <button class="type-button" id="all">All</button>
+            <button class="type-button" id="education">Education</button>
+            <button class="type-button" id="recreational">Recreational</button>
+            <button class="type-button" id="social">Social</button>
+            <button class="type-button" id="diy">DIY</button>
+            <button class="type-button" id="charity">Charity</button>
+            <button class="type-button" id="cooking">Cooking</button>
+            <button class="type-button" id="relaxation">Relaxation</button>
+            <button class="type-button" id="music">Music</button>
+            <button class="type-button" id="busywork">Busywork</button>
+        </div>
+
+        <h4>Number of Participants</h4>
+        <div id="participants">
+            <button class="participants-button" id="-1">Random</button>
+            <button class="participants-button" id="1">Alone</button>
+            <button class="participants-button" id="2">2 people</button>
+            <button class="participants-button" id="3">3 people</button>
+            <button class="participants-button" id="4">4 people</button>
+        </div>
+
+        <div>
+            <button id="restore-defaults" style="width:100%;">Restore Defaults</button>
+        </div>
+
+        <footer>
+            <p>
+                Made with ❤️ by <a href="https:ahmad-raza.vercel.app">Ahmad Raza</a>
+            </p>
+        </footer>
+        <script src="./index.js" defer></script>
+    </body>
+
+</html>
